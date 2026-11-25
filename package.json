@@ -1,0 +1,17 @@
+{
+  "name": "cubo-ivy",
+  "version": "1.0.0",
+  "description": "O Ivy Cube varrido inteiro: 29.160 posicoes, nenhuma a mais de 8 giros, e as piores nao torcem canto nenhum",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
